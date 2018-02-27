@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/part-1/modeling-concepts/chapter-1.html",
-          "hash": "+utRNXtDaj6sDsXUr8Y7ww=="
+          "hash": "TaVFo2unl4Bu0485nqNgAw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/part-1/modeling-concepts/chapter-2.html",
-          "hash": "JlFHRM2+o0VRLtoOPKrJAw=="
+          "hash": "x8WvU6AA5Tcz8tas45ncRA=="
         }
       },
       "is_incremental": false,
@@ -99,7 +99,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "IT7ShJ3+ftij+2XEJSPNjw=="
+          "hash": "WuAD/SQoH7PXEiQOTssqTA=="
         }
       },
       "is_incremental": false,
@@ -121,23 +121,22 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
