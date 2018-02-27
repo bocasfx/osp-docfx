@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/part-1/modeling-concepts/chapter-1.html",
-          "hash": "TaVFo2unl4Bu0485nqNgAw=="
+          "hash": "kS/zgnTeznnYMAYuaHPH0g=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/part-1/modeling-concepts/chapter-2.html",
-          "hash": "x8WvU6AA5Tcz8tas45ncRA=="
+          "hash": "33KqLoXVNeINrxN+p5maDA=="
         }
       },
       "is_incremental": false,
@@ -99,7 +99,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "WuAD/SQoH7PXEiQOTssqTA=="
+          "hash": "aEXdMt5cgicXIHk9Dq4WjQ=="
         }
       },
       "is_incremental": false,
@@ -121,7 +121,8 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build"
       },
       "processors": {
@@ -131,7 +132,7 @@
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build"
         },
         "TocDocumentProcessor": {
